@@ -25,19 +25,19 @@ Connection conn=DriverManager.getConnection(url, user, password);
 PreparedStatement pstmt=conn.prepareStatement(sqlDel);  //3)준비된 문장통
 pstmt.setString(1, num);
 pstmt.setString(2, pass);
-// int r=pstmt.executeUpdate();
-// if(r==1) response.sendRedirect("index.jsp");
-// else out.print("비번불일치");
+pstmt.executeUpdate();
 
-//update tblboard set num=num-1 where num>2
-String sqlUpdate="update tblboard set num = num - 1 where num > ?";
-pstmt = conn.prepareStatement(sqlUpdate);
+//update tablboard set num=num-1 where num > 2 
+String sqlUpdate="update tblboard set num=num-1 where num > ?";
+pstmt=conn.prepareStatement(sqlUpdate);
 pstmt.setString(1, num);
 pstmt.executeUpdate();
-} catch (Exception e){
+
+} catch(Exception e){
 	e.printStackTrace();
 }
 response.sendRedirect("listboard.jsp");
+
 %>
 <body>
 

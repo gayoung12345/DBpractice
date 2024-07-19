@@ -8,9 +8,9 @@
 </head>
 <body>
 <%
-String id = request.getParameter("id");
-String pass = request.getParameter("pass");
-out.print(id); out.print(pass);
+String id=request.getParameter("id");
+String pass=request.getParameter("pass");
+//out.print(id);out.print(pass);
 %>
 </body>
 </html>

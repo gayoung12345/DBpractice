@@ -6,14 +6,9 @@
 <TITLE> 회원 등록 </TITLE>
 <BODY>
 <center><font size='3'><b> 회원 가입 </b></font>
-<TABLE border='0' width='600' cellpadding='0' cellspacing='0'>
-	<TR>
-		<TD><hr size='1' noshade>
-		</TD>
- 	</TR>
-</TABLE>
+<hr size='1' noshade>
 
-<FORM Name='Member_Input' method="get" action="member_output.jsp">
+<FORM Name='Member_Input' method="post" action="member_output.jsp">
 
 <TABLE  border='2' cellSpacing=0 cellPadding=5 align=center>
 <TR>
@@ -86,12 +81,7 @@
 </TR>
 </TABLE>
 
-<TABLE border='0' width='600' cellpadding='0' cellspacing='0'>
-	<TR>
-		<TD><hr size='1' noshade>
-		</TD>
- 	</TR>
-</TABLE>
+<hr size='1' noshade>
 
 <TABLE>
 <TR>

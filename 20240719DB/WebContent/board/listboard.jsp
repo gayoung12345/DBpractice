@@ -1,4 +1,4 @@
-<%@page import="oracle.net.aso.l"%>
+
 <%@page import="java.sql.*"%>
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>

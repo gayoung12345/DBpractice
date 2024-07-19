@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<center><font size='3'><b>íšŒì› ì¸ì¦</b></font>
+<center><font size='3'><b>È¸¿ø ÀÎÁõ </b></font>
 
 <hr size='1' noshade>
 
@@ -21,18 +21,18 @@
 		<input type=text maxlength=10 size=10 name='id'>
 	</TD>
 	<TD bgcolor='cccccc' align='left'>
-		<input type='submit' value='ë¡œê·¸ì¸'>
+		<input type='submit' value='·Î±×ÀÎ'>
 	</TD>
 </TR>
 <TR>
 	<TD bgcolor='cccccc' align='right'>
-		<font size='2'>ë¹„ë°€ ë²ˆí˜¸ :
+		<font size='2'>ºñ¹Ð ¹øÈ£ :
 	</TD>
 	<TD bgcolor='cccccc' align='center'>
 		<input type='password' maxlength='10' size='10' name='pass'>
 	</TD>
 	<TD bgcolor='cccccc'>
-		<font size='2'> <a href="member_input.jsp">[íšŒì›ê°€ìž…]</a> </font>
+		<font size='2'> <a href="member_input.jsp">[È¸¿ø°¡ÀÔ]</a> </font>
 	</TD>
 </TR>
 </TABLE>
