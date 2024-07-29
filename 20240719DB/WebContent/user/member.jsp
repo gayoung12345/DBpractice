@@ -9,7 +9,12 @@
 <body>
 <center><font size='3'><b>회원 인증 </b></font>
 
-<hr size='1' noshade>
+<TABLE border='0' width='600' cellpadding='0' cellspacing='0'>
+	<TR>
+		<TD><hr size='1' noshade>
+		</TD>
+ 	</TR>
+</TABLE>
 
 <FORM Name='Member' action="member_ok.jsp" method="get"> 
 <TABLE align=center width='300' border='0' cellpadding='10' cellspacing='0'>

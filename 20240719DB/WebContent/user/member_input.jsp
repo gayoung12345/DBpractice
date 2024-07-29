@@ -1,28 +1,33 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
 <HTML>
 <HEAD>
-<TITLE> íšŒì› ë“±ë¡ </TITLE>
+<TITLE> È¸¿ø µî·Ï </TITLE>
 <BODY>
-<center><font size='3'><b> íšŒì› ê°€ìž… </b></font>
-<hr size='1' noshade>
+<center><font size='3'><b> È¸¿ø °¡ÀÔ </b></font>
+<TABLE border='0' width='600' cellpadding='0' cellspacing='0'>
+	<TR>
+		<TD><hr size='1' noshade>
+		</TD>
+ 	</TR>
+</TABLE>
 
-<FORM Name='Member_Input' method="post" action="member_output.jsp">
+<FORM Name='Member_Input' method="get" action="member_output.jsp">
 
 <TABLE  border='2' cellSpacing=0 cellPadding=5 align=center>
 <TR>
 	<TD bgcolor='cccccc' align='center'>
-		<font size='2'>ì•„ ì´ ë””</font>
+		<font size='2'>¾Æ ÀÌ µð</font>
 	</TD>
 	<TD bgcolor='cccccc'>
 		<input type='text' maxLength='10' size='10' name="id">
-		<input type='button' value='ID ì¤‘ë³µê²€ì‚¬'>
+		<input type='button' value='ID Áßº¹°Ë»ç'>
 	</TD>
 </TR>
 <TR>
 	<TD bgcolor='cccccc' align='center'>
-		<font size='2'>ë¹„ ë°€ ë²ˆ í˜¸</font>
+		<font size='2'>ºñ ¹Ð ¹ø È£</font>
 	</TD>
 	<TD bgcolor='cccccc'>
 		<input type='password' maxLength='10' size='10' name="pass">
@@ -30,7 +35,7 @@
 </TR>
 <TR>
 	<TD bgcolor='cccccc' align='center'>
-		<font size='2'>ì´ ë¦„</font>
+		<font size='2'>ÀÌ ¸§</font>
 	</TD>
 	<TD bgcolor='cccccc'>
 		<input type='text' maxLength='10' size='10' name="name">
@@ -38,7 +43,7 @@
 </TR>
 <TR>
 	<TD bgcolor='cccccc' align='center'>
-		<font size='2'>ì£¼ë¯¼ë“±ë¡ë²ˆí˜¸</font>
+		<font size='2'>ÁÖ¹Îµî·Ï¹øÈ£</font>
 	</TD>
 	<TD bgcolor='cccccc'>
 		<input type='text' size='6' maxlength='6' name="juminnum1">-
@@ -47,16 +52,16 @@
 </TR>
 <TR>
 	<TD bgcolor='cccccc' align='center'>
-		<font size='2'>ìš° íŽ¸ ë²ˆ í˜¸</font>
+		<font size='2'>¿ì Æí ¹ø È£</font>
 	</TD>
 	<TD bgcolor='cccccc'>
 		<input type='text' maxlength='7' size='7' name='zip' name="zip">
-		<input type='button' value='ìš°íŽ¸ë²ˆí˜¸ê²€ìƒ‰'>
+		<input type='button' value='¿ìÆí¹øÈ£°Ë»ö'>
 	</TD>
 </TR>
 <TR>
 	<TD bgcolor='cccccc' align='center'>
-		<font size='2'>ì£¼ ì†Œ</font>
+		<font size='2'>ÁÖ ¼Ò</font>
 	</TD>
 	<TD bgcolor='cccccc'>
 		<input type='text' maxlength='50' size='50' name="address1"><BR>
@@ -65,7 +70,7 @@
 </TR>
 <TR>
 	<TD bgcolor='cccccc' align='center'>
-		<font size='2'>ì „ í™” ë²ˆ í˜¸</font>
+		<font size='2'>Àü È­ ¹ø È£</font>
 	</TD>
 	<TD bgcolor='cccccc'>
 		<input type='text' maxlength='20' size='20' name="phone">
@@ -81,12 +86,17 @@
 </TR>
 </TABLE>
 
-<hr size='1' noshade>
+<TABLE border='0' width='600' cellpadding='0' cellspacing='0'>
+	<TR>
+		<TD><hr size='1' noshade>
+		</TD>
+ 	</TR>
+</TABLE>
 
 <TABLE>
 <TR>
 	<TD colspan='2' align='center'>
-		<input type='submit' value='íšŒì›ê°€ìž…'>
+		<input type='submit' value='È¸¿ø°¡ÀÔ'>
 	</TD>
 </TR>
 </TABLE>
